@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import AgentsShowcase from './components/AgentsShowcase';
 import CustomAgentsSection from './components/CustomAgentsSection';
 import X402TokenSection from './components/X402TokenSection';
+import X402DashboardCard from './components/X402DashboardCard';
 import Footer from './components/Footer';
 
 // Lazy load heavy components for better performance
@@ -28,6 +29,9 @@ function App() {
     <div className="min-h-screen bg-gradient-primary relative overflow-hidden">
       {/* Particle Effects Background */}
       <ParticleEffects />
+      
+      {/* X402 Real-Time Price Dashboard Card */}
+      <X402DashboardCard />
       
       {/* Main Content */}
       <main className="relative z-10">
