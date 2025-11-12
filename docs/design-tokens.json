@@ -1,0 +1,183 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "version": "1.0.0",
+  "name": "WorkforceX402 Design Tokens",
+  "description": "Glassmorphism design tokens for AI Workforce Platform - Custom Purple Variant",
+  "updated": "2025-11-12",
+  
+  "color": {
+    "gradient": {
+      "primary": {
+        "$type": "gradient",
+        "value": "linear-gradient(135deg, #1a1a2e 0%, #16213e 35%, #0f0f23 100%)",
+        "description": "Main background gradient - deep purple to near-black"
+      },
+      "secondary": {
+        "$type": "gradient",
+        "value": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+        "description": "Accent gradient for CTAs and highlights"
+      },
+      "hero-overlay": {
+        "$type": "gradient",
+        "value": "linear-gradient(180deg, rgba(26,26,46,0) 0%, rgba(26,26,46,0.8) 100%)",
+        "description": "Hero bottom fade overlay"
+      }
+    },
+    "glass": {
+      "primary": { "$type": "color", "value": "rgba(255, 255, 255, 0.08)" },
+      "secondary": { "$type": "color", "value": "rgba(255, 255, 255, 0.05)" },
+      "elevated": { "$type": "color", "value": "rgba(255, 255, 255, 0.12)" },
+      "border": { "$type": "color", "value": "rgba(255, 255, 255, 0.18)" },
+      "border-strong": { "$type": "color", "value": "rgba(255, 255, 255, 0.25)" }
+    },
+    "accent": {
+      "yellow": { "$type": "color", "value": "#FFD700", "wcag": "7.8:1 on dark" },
+      "green": { "$type": "color", "value": "#10b981", "wcag": "5.2:1 on dark" },
+      "blue": { "$type": "color", "value": "#3b82f6", "wcag": "4.9:1 on dark" },
+      "pink": { "$type": "color", "value": "#ec4899", "wcag": "4.6:1 on dark" }
+    },
+    "text": {
+      "primary": { "$type": "color", "value": "#FFFFFF", "wcag": "15.6:1" },
+      "secondary": { "$type": "color", "value": "#CBD5E1", "wcag": "9.8:1" },
+      "muted": { "$type": "color", "value": "#94A3B8", "wcag": "5.2:1" },
+      "accent": { "$type": "color", "value": "#FFD700", "wcag": "7.8:1" }
+    },
+    "semantic": {
+      "success": { "$type": "color", "value": "#10b981" },
+      "warning": { "$type": "color", "value": "#f59e0b" },
+      "info": { "$type": "color", "value": "#3b82f6" },
+      "premium": { "$type": "color", "value": "#a855f7" }
+    }
+  },
+  
+  "typography": {
+    "font-family": {
+      "primary": {
+        "$type": "fontFamily",
+        "value": "'Poppins', -apple-system, BlinkMacSystemFont, sans-serif"
+      },
+      "monospace": {
+        "$type": "fontFamily",
+        "value": "'JetBrains Mono', 'Fira Code', monospace"
+      }
+    },
+    "font-size": {
+      "hero": { "$type": "dimension", "value": "72px" },
+      "display": { "$type": "dimension", "value": "56px" },
+      "h1": { "$type": "dimension", "value": "40px" },
+      "h2": { "$type": "dimension", "value": "32px" },
+      "h3": { "$type": "dimension", "value": "24px" },
+      "body-large": { "$type": "dimension", "value": "20px" },
+      "body": { "$type": "dimension", "value": "16px" },
+      "small": { "$type": "dimension", "value": "14px" },
+      "caption": { "$type": "dimension", "value": "12px" }
+    },
+    "font-weight": {
+      "light": { "$type": "number", "value": 300 },
+      "regular": { "$type": "number", "value": 400 },
+      "medium": { "$type": "number", "value": 500 },
+      "semibold": { "$type": "number", "value": 600 },
+      "bold": { "$type": "number", "value": 700 }
+    },
+    "line-height": {
+      "tight": { "$type": "number", "value": 1.1 },
+      "snug": { "$type": "number", "value": 1.3 },
+      "normal": { "$type": "number", "value": 1.5 },
+      "relaxed": { "$type": "number", "value": 1.6 }
+    },
+    "letter-spacing": {
+      "tight": { "$type": "dimension", "value": "-0.02em" },
+      "normal": { "$type": "dimension", "value": "0" },
+      "wide": { "$type": "dimension", "value": "0.01em" }
+    }
+  },
+  
+  "spacing": {
+    "xs": { "$type": "dimension", "value": "8px" },
+    "sm": { "$type": "dimension", "value": "16px" },
+    "md": { "$type": "dimension", "value": "24px" },
+    "lg": { "$type": "dimension", "value": "32px" },
+    "xl": { "$type": "dimension", "value": "48px" },
+    "2xl": { "$type": "dimension", "value": "64px" },
+    "3xl": { "$type": "dimension", "value": "96px" },
+    "4xl": { "$type": "dimension", "value": "128px" }
+  },
+  
+  "border-radius": {
+    "sm": { "$type": "dimension", "value": "8px" },
+    "md": { "$type": "dimension", "value": "12px" },
+    "lg": { "$type": "dimension", "value": "16px" },
+    "xl": { "$type": "dimension", "value": "24px" },
+    "2xl": { "$type": "dimension", "value": "32px" },
+    "full": { "$type": "dimension", "value": "9999px" }
+  },
+  
+  "box-shadow": {
+    "glass": {
+      "$type": "shadow",
+      "value": "0 8px 32px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.2)"
+    },
+    "glass-hover": {
+      "$type": "shadow",
+      "value": "0 12px 48px rgba(0, 0, 0, 0.4), 0 6px 24px rgba(0, 0, 0, 0.25)"
+    },
+    "glow": {
+      "$type": "shadow",
+      "value": "0 4px 20px rgba(255, 215, 0, 0.4)"
+    },
+    "glow-strong": {
+      "$type": "shadow",
+      "value": "0 8px 32px rgba(255, 215, 0, 0.6), 0 4px 16px rgba(255, 215, 0, 0.3)"
+    },
+    "inset": {
+      "$type": "shadow",
+      "value": "inset 0 1px 2px rgba(255, 255, 255, 0.15)"
+    }
+  },
+  
+  "backdrop-filter": {
+    "blur-light": {
+      "$type": "string",
+      "value": "blur(8px) saturate(150%)"
+    },
+    "blur-standard": {
+      "$type": "string",
+      "value": "blur(20px) saturate(160%)"
+    },
+    "blur-strong": {
+      "$type": "string",
+      "value": "blur(32px) saturate(180%)"
+    }
+  },
+  
+  "animation": {
+    "duration": {
+      "fast": { "$type": "duration", "value": "200ms" },
+      "standard": { "$type": "duration", "value": "300ms" },
+      "smooth": { "$type": "duration", "value": "400ms" },
+      "slow": { "$type": "duration", "value": "600ms" }
+    },
+    "easing": {
+      "default": {
+        "$type": "cubicBezier",
+        "value": [0.0, 0.0, 0.2, 1.0]
+      },
+      "smooth": {
+        "$type": "cubicBezier",
+        "value": [0.4, 0.0, 0.2, 1.0]
+      },
+      "bounce": {
+        "$type": "cubicBezier",
+        "value": [0.68, -0.55, 0.27, 1.55]
+      }
+    }
+  },
+  
+  "breakpoints": {
+    "sm": { "$type": "dimension", "value": "640px" },
+    "md": { "$type": "dimension", "value": "768px" },
+    "lg": { "$type": "dimension", "value": "1024px" },
+    "xl": { "$type": "dimension", "value": "1280px" },
+    "2xl": { "$type": "dimension", "value": "1536px" }
+  }
+}
